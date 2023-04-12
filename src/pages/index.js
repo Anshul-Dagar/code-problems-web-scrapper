@@ -21,7 +21,7 @@ const Home = () => {
     <div className="min-h-screen bg-gray-100">
       <div className="container mx-auto p-4 flex flex-col items-center justify-center h-full">
         <h1 className="text-4xl font-bold mb-4 text-center text-gray-900">
-          Scraped Anchor Data
+          Scraped Tailwind Links
         </h1>
       </div>
       {loading ? (
