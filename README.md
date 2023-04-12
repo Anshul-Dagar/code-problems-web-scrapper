@@ -4,7 +4,6 @@ This is a simple web scraper project that uses Puppeteer, a headless browser lib
 
 ## Features
 
-- Enter a URL to scrape anchor tags from
 - Display the title and link of scraped anchor tags in a responsive grid layout
 - Clickable anchor links that open in a new tab
 - Handling for long titles and links with truncation
