@@ -25,7 +25,16 @@ const Home = () => {
         </h1>
       </div>
       {loading ? (
-        <p>Loading...</p>
+        <div className="flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            className="animate-spin h-12 w-12 text-gray-800"
+          >
+            <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+          </svg>
+          <span className="ml-2">Loading...</span>
+        </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {anchors.map(
